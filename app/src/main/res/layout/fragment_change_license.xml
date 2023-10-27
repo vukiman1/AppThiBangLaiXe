@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.FragmentChangeLicense"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@color/bgColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBack"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:theme="@style/ToolbarColor"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thay đổi hạng bằng lái"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:gravity="center|start"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn loại bằng lái xe máy"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:gravity="center|start"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_gravity="center_vertical"/>
+
+        <androidx.cardview.widget.CardView
+            android:padding="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:id="@+id/card_a1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_64sdp"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ic_a1"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_10sdp"
+                    android:src="@drawable/ic_a1"
+                    app:tint="@color/bgColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/image_check_a1"
+                    android:layout_toEndOf="@id/ic_a1"
+                    android:orientation="vertical"
+                    android:paddingVertical="@dimen/_3sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="bottom|start"
+                        android:text="Bằng A1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:alpha="0.7"
+                        android:gravity="top|start"
+                        android:maxLines="2"
+                        android:text="Xe mô tô 2 bánh có dung tích xy lanh dưới 175cm3"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_check_a1"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_check_24"
+                    app:tint="@color/bgColor" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/card_a2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_64sdp"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ic_a2"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_10sdp"
+                    android:src="@drawable/ic_a2"
+                    app:tint="@color/bgColor" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/image_check_a2"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:layout_toEndOf="@id/ic_a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bằng A2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp"
+                        android:gravity="bottom|start"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:maxLines="2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Xe mô tô 2 bánh có dung tích xy lanh từ 175cm3 trở lên"
+                        android:textColor="@color/black"
+                        android:alpha="0.7"
+                        android:textSize="@dimen/_11sdp"
+                        android:textStyle="normal"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_check_a2"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    app:tint="@color/bgColor" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

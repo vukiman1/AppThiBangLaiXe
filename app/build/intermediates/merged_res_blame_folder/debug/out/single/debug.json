@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_fragment_login.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_circle_text.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/circle_text.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_edit_note_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_edit_note_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_tab_selector.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/tab_selector.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_fragment_change_license.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/fragment_change_license.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_bottom_end.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/bottom_end.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_circle_text_select.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/circle_text_select.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_bg_indicator.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/bg_indicator.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_thi5.jpg.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/thi5.jpg"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.thibanglaixe.app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_fragment_result.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/fragment_result.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/menu_layout_menu.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/menu/layout_menu.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_splash_screen.png.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/splash_screen.png"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_a1.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_a1.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_thi2.jpg.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/thi2.jpg"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_circle_text_key.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/circle_text_key.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_item_view_pager2.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/item_view_pager2.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/anim_slide_out_left.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_icon_exam.png.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/icon_exam.png"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_layout_menu_header.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/layout_menu_header.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_stars_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_stars_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_dialog_help.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/dialog_help.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/anim_slide_in_right.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_bike_scooter_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_bike_scooter_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_home.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_policy_and_terms.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_policy_and_terms.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_bg_button_border.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/bg_button_border.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/color_drawer_item.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/color/drawer_item.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_share_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_bg_login.png.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/bg_login.png"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_img_new.png.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/img_new.png"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_check_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_fragment_contest.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/fragment_contest.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_bg_bottom_sheet.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_fragment_question.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/fragment_question.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_fragment_user_manual.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/fragment_user_manual.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_icon_brain.png.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/icon_brain.png"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_download_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_download_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_login.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_login.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_baseline_info_24.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_thi3.png.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/thi3.png"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_header_menu_hoc_bang_lai_xe.jpg.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/header_menu_hoc_bang_lai_xe.jpg"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_bottom_start.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/bottom_start.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_thi4.jpg.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/thi4.jpg"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_item_topic.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/item_topic.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_ic_a2.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/ic_a2.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable-v24_thi1.jpg.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable-v24/thi1.jpg"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_selected_dot.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/selected_dot.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/layout_item_answer.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/layout/item_answer.xml"
+    },
+    {
+        "merged": "com.example.thibanglaixe.app-merged_res-33:/drawable_select_item_question.xml.flat",
+        "source": "com.example.thibanglaixe.app-main-35:/drawable/select_item_question.xml"
+    }
+]

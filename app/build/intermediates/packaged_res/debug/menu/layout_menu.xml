@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Học bằng lái xe"/>
+    <item
+        android:id="@+id/change"
+        android:icon="@drawable/ic_baseline_bike_scooter_24"
+        android:title="Thay đổi bằng lái xe"/>
+    <item
+        android:id="@+id/user_manual"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Hướng dẫn sử dụng"/>
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_login"
+        android:title="Đăng nhập"/>
+    <item android:title="Hỗ trợ">
+        <menu>
+            <item
+                android:title="Email hỗ trợ"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:id="@+id/email"/>
+
+            <item
+                android:title="Các ứng dụng khác"
+                android:icon="@drawable/ic_baseline_download_24"
+                android:id="@+id/app_another"/>
+
+            <item
+                android:title="Chia sẻ ứng dụng"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:id="@+id/like"/>
+
+            <item
+                android:title="Đánh giá ứng dụng"
+                android:icon="@drawable/ic_baseline_stars_24"
+                android:id="@+id/share"/>
+
+            <item
+                android:title="Chính sách và điều khoản"
+                android:icon="@drawable/ic_policy_and_terms"
+                android:id="@+id/terms"/>
+        </menu>
+    </item>
+</menu>

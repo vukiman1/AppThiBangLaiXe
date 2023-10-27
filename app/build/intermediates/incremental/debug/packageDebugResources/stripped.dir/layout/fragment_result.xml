@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.FragmentResult"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="#F7F7F7"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/appbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@color/bgColor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:text="Kết quả kiểm tra sát hạch"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textNotification"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F44336"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:alpha="0.65"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+
+    <LinearLayout
+        android:background="@drawable/bg_button_border"
+        android:backgroundTint="#EFEFEF"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Tổng số\n câu hỏi"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="25"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/purple_500"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Số câu\n hỏi đúng"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textNumberCorrect"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:textColor="@color/bgColor"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Số câu\n hỏi sai"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_12sdp"
+                android:id="@+id/textNumberIncorrect"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="#FF9800"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:id="@+id/buttonReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_border"
+            android:backgroundTint="@color/black"
+            android:alpha="0.25"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:text="Xem lại bài thi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:id="@+id/buttonRemake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_border"
+            android:backgroundTint="@color/bgColor"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="Làm lại bài thi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBackFragmentTopics"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_border"
+        android:backgroundTint="@color/bgColor"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Danh sách đề thi"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="normal" />
+
+</LinearLayout>
+

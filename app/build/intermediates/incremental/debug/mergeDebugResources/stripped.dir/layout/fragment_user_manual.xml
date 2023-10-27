@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.FragmentUserManual"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@color/bgColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBack"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:theme="@style/ToolbarColor"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hướng dẫn chi tiết"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:gravity="center|start"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_intro"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="Đây là ứng dụng giúp bạn học lý thuyết để chuẩn bị cho kì thi giấy phép lái xe A1, A2 chỉ trong 3 ngày. Vui lòng thực hiện các bước dưới đây và rút ngắn nhất thời gian ôn luyện!"/>
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail1"
+            android:textStyle="normal"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="\n1. Ngày đầu tiên bạn nên danh 8 tiếng để học hết tất cả các loại biển báo hay gặp. Tập trung vào các loại biển báo cấm, biển báo hiệu lệnh, biển báo chỉ dẫn, biển báo nguy hiểm."/>
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail2"
+            android:textStyle="normal"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="\n2. Ngày thứ hai bạn hãy vào phần học tất cả các câu lý thuyết, học đi học lại các câu lý thuyết này và các mẹo làm của từng câu, nhớ các định nghĩa cơ bản như nồng độ cồn, tốc độ cho phép... và học mẹo làm bài các câu hỏi sa hình."/>
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail3"
+            android:textStyle="normal"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="\n3. Ngày thứ 3 bạn hãy vào làm hết các bộ đề thi của hạng bằng lái xe mà bạn thi. Hãy chọn các đề có sẵn và thực hành làm đi làm lại đến khi đều đỗ tất cả các đề có sẵn thì bạn hãy chọn làm 1 đề xáo trộn như thi thật. Hãy làm nhiều đề thi xáo trộn và khi nào bạn đều đạt điểm đỗ 100% các đề thi xáo trộn bất kỳ thì bạn hãy dừng lại!"/>
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail4"
+            android:textStyle="normal"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="\n4. Nếu bạn đã hoàn thành 3 bước trên, thì bạn chỉ cần giữ tự tin và bĩnh tĩnh khi thi, chắc chắn bạn sẽ đạt kết quả cao. Chúc bạn thi đỗ với số điểm tối đa!"/>
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/buttonBack"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_gravity="center"
+            android:paddingHorizontal="@dimen/_48sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bắt đầu sử dụng"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_border"
+            android:backgroundTint="@color/bgColor"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

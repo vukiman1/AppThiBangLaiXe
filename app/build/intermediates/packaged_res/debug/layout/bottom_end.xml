@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết thúc"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn có thực sự muốn kết thúc bài thi và xem đáp án?"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        android:textSize="@dimen/_14sdp" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_border"
+            android:backgroundTint="@color/black"
+            android:alpha="0.25"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Hủy bỏ"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="normal" />
+
+
+        <Button
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:id="@+id/button_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_border"
+            android:backgroundTint="@color/bgColor"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Đồng ý"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu làm bài"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đề thi bằng lái hạng A1 gồm 25 câu hỏi làm bài trong thời gian 19 phút."
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Để vượt qua bài thi, bạn cần trả lời đúng 21/25 câu hỏi và không sai câu điểm liệt nào."
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <LinearLayout
+        android:background="@drawable/bg_button_border"
+        android:backgroundTint="#EFEFEF"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Tổng số\n câu hỏi"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:text="25"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/purple_500"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Số câu hỏi\n cần đúng"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:text="21"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/bgColor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Thời gian\n làm bài"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:text="19 phút"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="#FF9800"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/bg_button_border"
+        android:backgroundTint="@color/bgColor"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Bắt đầu làm bài"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

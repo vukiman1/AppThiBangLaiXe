@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_12sdp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hướng dẫn làm bài thi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mỗi đề thi đều có câu hỏi điểm liệu, nếu thí sinh chỉ cần trả lời sai câu hỏi điểm liệu coi như bị rớt. Đề thi bằng lái hạng A2 gồm 25 câu hỏi làm bài trong thời gian 19 phút."
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Để vượt qua bài thi, thí sinh cần trả lời đúng 23/25 câu hỏi và không sai câu điểm liệt nào."
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_margin="@dimen/_12sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_14sdp"
+        android:text="Đã hiểu"
+        android:id="@+id/buttonClose"
+        android:backgroundTint="@color/bgColor"
+        android:background="@drawable/bg_button_border"
+        android:textColor="@color/white"/>
+</LinearLayout>
+
